@@ -1,0 +1,7 @@
+[
+  { "id": "TRAVEL", "label": "Travel" },
+  { "id": "MEALS", "label": "Meals" },
+  { "id": "ACCOMMODATION", "label": "Accommodation" },
+  { "id": "EQUIPMENT", "label": "Equipment" },
+  { "id": "OTHER", "label": "Other" }
+]

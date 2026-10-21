@@ -1,0 +1,224 @@
+[
+  {
+    "id": "CLM-1001",
+    "employeeId": "user-alice",
+    "managerId": "user-bob",
+    "title": "Client visit travel",
+    "description": "Taxi and local travel for a client visit",
+    "category": "TRAVEL",
+    "expenseDate": "2026-10-12",
+    "amount": 1850,
+    "currency": "INR",
+    "receiptReference": "RCP-1001",
+    "status": "PENDING",
+    "createdAt": "2026-10-13T09:00:00.000Z",
+    "updatedAt": "2026-10-13T09:00:00.000Z",
+    "version": 2,
+    "history": [
+      {
+        "type": "CREATED",
+        "actorId": "user-alice",
+        "timestamp": "2026-10-13T08:00:00.000Z",
+        "previousStatus": null,
+        "newStatus": "DRAFT"
+      },
+      {
+        "type": "SUBMITTED",
+        "actorId": "user-alice",
+        "timestamp": "2026-10-13T09:00:00.000Z",
+        "previousStatus": "DRAFT",
+        "newStatus": "PENDING"
+      }
+    ]
+  },
+  {
+    "id": "CLM-1002",
+    "employeeId": "user-alice",
+    "managerId": "user-bob",
+    "title": "Team lunch",
+    "description": "Quarterly team lunch at office cafeteria",
+    "category": "MEALS",
+    "expenseDate": "2026-10-15",
+    "amount": 2400,
+    "currency": "INR",
+    "receiptReference": "RCP-1002",
+    "status": "DRAFT",
+    "createdAt": "2026-10-16T10:00:00.000Z",
+    "updatedAt": "2026-10-16T10:00:00.000Z",
+    "version": 1,
+    "history": [
+      {
+        "type": "CREATED",
+        "actorId": "user-alice",
+        "timestamp": "2026-10-16T10:00:00.000Z",
+        "previousStatus": null,
+        "newStatus": "DRAFT"
+      }
+    ]
+  },
+  {
+    "id": "CLM-1003",
+    "employeeId": "user-alice",
+    "managerId": "user-bob",
+    "title": "Conference hotel",
+    "description": "One night stay for regional sales conference",
+    "category": "ACCOMMODATION",
+    "expenseDate": "2026-09-28",
+    "amount": 6200,
+    "currency": "INR",
+    "receiptReference": "RCP-1003",
+    "status": "REJECTED",
+    "createdAt": "2026-09-29T11:00:00.000Z",
+    "updatedAt": "2026-10-02T14:30:00.000Z",
+    "version": 4,
+    "lastReviewComment": "Receipt does not show guest name matching employee.",
+    "history": [
+      {
+        "type": "CREATED",
+        "actorId": "user-alice",
+        "timestamp": "2026-09-29T11:00:00.000Z",
+        "previousStatus": null,
+        "newStatus": "DRAFT"
+      },
+      {
+        "type": "SUBMITTED",
+        "actorId": "user-alice",
+        "timestamp": "2026-09-30T09:00:00.000Z",
+        "previousStatus": "DRAFT",
+        "newStatus": "PENDING"
+      },
+      {
+        "type": "REJECTED",
+        "actorId": "user-bob",
+        "timestamp": "2026-10-02T14:30:00.000Z",
+        "comment": "Receipt does not show guest name matching employee.",
+        "previousStatus": "PENDING",
+        "newStatus": "REJECTED"
+      }
+    ]
+  },
+  {
+    "id": "CLM-1004",
+    "employeeId": "user-alice",
+    "managerId": "user-bob",
+    "title": "Laptop stand",
+    "description": "Ergonomic stand for home office",
+    "category": "EQUIPMENT",
+    "expenseDate": "2026-10-05",
+    "amount": 3200,
+    "currency": "INR",
+    "receiptReference": "RCP-1004",
+    "status": "APPROVED",
+    "createdAt": "2026-10-06T08:00:00.000Z",
+    "updatedAt": "2026-10-08T16:00:00.000Z",
+    "version": 3,
+    "approvedById": "user-bob",
+    "approvedAt": "2026-10-08T16:00:00.000Z",
+    "history": [
+      {
+        "type": "CREATED",
+        "actorId": "user-alice",
+        "timestamp": "2026-10-06T08:00:00.000Z",
+        "previousStatus": null,
+        "newStatus": "DRAFT"
+      },
+      {
+        "type": "SUBMITTED",
+        "actorId": "user-alice",
+        "timestamp": "2026-10-06T09:00:00.000Z",
+        "previousStatus": "DRAFT",
+        "newStatus": "PENDING"
+      },
+      {
+        "type": "APPROVED",
+        "actorId": "user-bob",
+        "timestamp": "2026-10-08T16:00:00.000Z",
+        "comment": "Approved for ergonomics budget.",
+        "previousStatus": "PENDING",
+        "newStatus": "APPROVED"
+      }
+    ]
+  },
+  {
+    "id": "CLM-1005",
+    "employeeId": "user-alice",
+    "managerId": "user-bob",
+    "title": "Flight to Mumbai",
+    "description": "Return flight for client workshop",
+    "category": "TRAVEL",
+    "expenseDate": "2026-09-10",
+    "amount": 8900,
+    "currency": "INR",
+    "receiptReference": "RCP-1005",
+    "status": "REIMBURSED",
+    "createdAt": "2026-09-11T07:00:00.000Z",
+    "updatedAt": "2026-09-20T12:00:00.000Z",
+    "version": 5,
+    "approvedById": "user-bob",
+    "approvedAt": "2026-09-15T10:00:00.000Z",
+    "reimbursedById": "user-carol",
+    "reimbursedAt": "2026-09-20T12:00:00.000Z",
+    "history": [
+      {
+        "type": "CREATED",
+        "actorId": "user-alice",
+        "timestamp": "2026-09-11T07:00:00.000Z",
+        "previousStatus": null,
+        "newStatus": "DRAFT"
+      },
+      {
+        "type": "SUBMITTED",
+        "actorId": "user-alice",
+        "timestamp": "2026-09-11T08:00:00.000Z",
+        "previousStatus": "DRAFT",
+        "newStatus": "PENDING"
+      },
+      {
+        "type": "APPROVED",
+        "actorId": "user-bob",
+        "timestamp": "2026-09-15T10:00:00.000Z",
+        "previousStatus": "PENDING",
+        "newStatus": "APPROVED"
+      },
+      {
+        "type": "REIMBURSED",
+        "actorId": "user-carol",
+        "timestamp": "2026-09-20T12:00:00.000Z",
+        "previousStatus": "APPROVED",
+        "newStatus": "REIMBURSED"
+      }
+    ]
+  },
+  {
+    "id": "CLM-1006",
+    "employeeId": "user-alice",
+    "managerId": "user-bob",
+    "title": "Parking fees",
+    "description": "Client site parking for two days",
+    "category": "OTHER",
+    "expenseDate": "2026-10-18",
+    "amount": 450,
+    "currency": "INR",
+    "receiptReference": "RCP-1006",
+    "status": "PENDING",
+    "createdAt": "2026-10-19T09:30:00.000Z",
+    "updatedAt": "2026-10-19T09:30:00.000Z",
+    "version": 2,
+    "history": [
+      {
+        "type": "CREATED",
+        "actorId": "user-alice",
+        "timestamp": "2026-10-19T09:00:00.000Z",
+        "previousStatus": null,
+        "newStatus": "DRAFT"
+      },
+      {
+        "type": "SUBMITTED",
+        "actorId": "user-alice",
+        "timestamp": "2026-10-19T09:30:00.000Z",
+        "previousStatus": "DRAFT",
+        "newStatus": "PENDING"
+      }
+    ]
+  }
+]

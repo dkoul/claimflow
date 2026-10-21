@@ -1,0 +1,8 @@
+{
+  "singleClaimLimitInr": 25000,
+  "defaultCurrency": "INR",
+  "pagination": {
+    "defaultPageSize": 10,
+    "maxPageSize": 50
+  }
+}

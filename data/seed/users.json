@@ -1,0 +1,23 @@
+[
+  {
+    "id": "user-alice",
+    "username": "alice",
+    "displayName": "Alice Sharma",
+    "role": "EMPLOYEE",
+    "managerId": "user-bob"
+  },
+  {
+    "id": "user-bob",
+    "username": "bob",
+    "displayName": "Bob Mehta",
+    "role": "MANAGER",
+    "managerId": null
+  },
+  {
+    "id": "user-carol",
+    "username": "carol",
+    "displayName": "Carol Singh",
+    "role": "FINANCE",
+    "managerId": null
+  }
+]
