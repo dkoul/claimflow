@@ -1,0 +1,9 @@
+node_modules/
+dist/
+server/dist/
+.env
+.env.local
+*.log
+.DS_Store
+data/claims.json.bak
+data/*.tmp
