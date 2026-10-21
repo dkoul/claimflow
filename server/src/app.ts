@@ -10,8 +10,6 @@ import { dashboardRoutes } from "./routes/dashboardRoutes.js";
 import { metaRoutes } from "./routes/metaRoutes.js";
 import { REPO_ROOT } from "./utils/paths.js";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
 export function createApp() {
   const app = express();
 
